@@ -28,6 +28,7 @@ app.use(express.urlencoded({extended:false}))
 app.use("/", employeeRouter);
 
 //function for launching
+//function
 app.listen(3000, function () {
     console.log("server is running");
 });
