@@ -22,7 +22,7 @@ app.use(cors({
     credentials:true,
     origin:["http://localhost:4200"]
 }))
-
+//comment for git hub by siddhi
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 app.use("/", employeeRouter);
